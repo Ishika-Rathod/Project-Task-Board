@@ -49,7 +49,7 @@ function ProjectListPage() {
   }
 
   return (
-    <section className="grid two">
+    <section>
       <ProjectForm onSubmit={editing ? updateProject : createProject} initialValue={editing} submitText={editing ? 'Update' : 'Create'} />
       <div>
         <h2>Projects</h2>
