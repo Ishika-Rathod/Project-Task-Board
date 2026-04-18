@@ -17,6 +17,23 @@ This repository contains a full-stack task board app:
 - Bonus: debounced title search on task board
 - Bonus: task status audit trail shown in task detail
 
+## Prerequisites
+Install these tools on the target machine before running:
+- Git (to clone repository)
+- .NET SDK 9.x (backend target framework is net9.0)
+- Node.js 20.x (recommended) and npm
+- Modern browser (Chrome/Edge/Firefox)
+Quick version checks:
+bash
+git --version
+dotnet --version
+node -v
+npm -v
+
+Notes:
+- No separate database server installation is required.
+- App uses SQLite file database managed through EF Core migrations.
+
 ## Clone And Run (Fresh Machine)
 
 1. Clone the repository and go inside it:
